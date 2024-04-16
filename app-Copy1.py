@@ -52,25 +52,5 @@ def home():
         f"/api/v1.0/&lt;start&gt/&lt;end&gt"
     )
 
-@app.route('/api/v1.0/precipitation')
-def precipitation():
-    # Insert code for /api/v1.0/precipitation route here
-
-@app.route('/api/v1.0/stations')
-def stations():
-    # Insert code for /api/v1.0/stations route here
-
-@app.route('/api/v1.0/tobs')
-def tobs():
-    # Insert code for /api/v1.0/tobs route here
-
-@app.route('/api/v1.0/<start>')
-def temp_start(start):
-    # Insert code for /api/v1.0/<start> route here
-
-@app.route('/api/v1.0/<start>/<end>')
-def temp_start_end(start, end):
-    # Insert code for /api/v1.0/<start>/<end> route here
-
 if __name__ == '__main__':
     app.run(debug=True)
